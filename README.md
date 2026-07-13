@@ -6,12 +6,12 @@ Slack `callabo-sales-meeting` 채널·첨부 파일에서 기업별 **도입 사
 
 ## 구성 (Agent의 4대 요소)
 
-| 요소 | 파일 | 역할 |
-|---|---|---|
-| **Persona** | [Agents.md](./Agents.md) | 역할·판단 기준·산출물 포맷 (8개 섹션) |
-| **Memory** | [Memory.md](./Memory.md) | 지난 경험·실패에서 배운 판단 규칙 누적 |
-| **Skills** | [skills/extract-case-study.md](./skills/extract-case-study.md) | 미팅 기록 1건 → 시트 1행 추출·적재 절차 |
-| **Tools** | [Agents.md §6](./Agents.md) | Slack MCP(읽기), Google Sheets/Drive MCP(append) |
+| 요소        | 파일                                                           | 역할                                             |
+| ----------- | -------------------------------------------------------------- | ------------------------------------------------ |
+| **Persona** | [Agents.md](./Agents.md)                                       | 역할·판단 기준·산출물 포맷 (8개 섹션)            |
+| **Memory**  | [Memory.md](./Memory.md)                                       | 지난 경험·실패에서 배운 판단 규칙 누적           |
+| **Skills**  | [skills/extract-case-study.md](./skills/extract-case-study.md) | 미팅 기록 1건 → 시트 1행 추출·적재 절차          |
+| **Tools**   | [Agents.md §6](./Agents.md)                                    | Slack MCP(읽기), Google Sheets/Drive MCP(append) |
 
 > 기획 원본: [description.md](./description.md)
 
@@ -26,13 +26,14 @@ Slack `callabo-sales-meeting` 채널·첨부 파일에서 기업별 **도입 사
       → [6] Slack 요약 + 공란 사유 고지
       ▼
 도입사례_data 시트 (1행 = 1기업)
+https://docs.google.com/spreadsheets/d/1SHYSGggEpmoreAZNmXdiuuJQTmTiqGT_YauiRfvRRIo/edit?gid=446809967#gid=446809967
 ```
 
 ### 시트 열 스키마 (`도입사례_data`)
 
-| 산업군 | 플랜 | 기업명 | 부서 | 도입 사유 / 후킹 포인트 / 활용 방법 |
-|---|---|---|---|---|
-| 분류 규칙 적용 | 확정된 플랜만, 미확정 시 공란 | 미팅 대상 | 도입·활용 주체 | 도입 배경·핵심 후킹·활용 요약 |
+| 산업군         | 플랜                          | 기업명    | 부서           | 도입 사유 / 후킹 포인트 / 활용 방법 |
+| -------------- | ----------------------------- | --------- | -------------- | ----------------------------------- |
+| 분류 규칙 적용 | 확정된 플랜만, 미확정 시 공란 | 미팅 대상 | 도입·활용 주체 | 도입 배경·핵심 후킹·활용 요약       |
 
 ## 핵심 원칙
 
