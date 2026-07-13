@@ -1,0 +1,5 @@
+# OMC transient state
+.omc/
+
+# OS
+.DS_Store
